@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Medora Healthcare">
+
+    <title>Medora Healthcare</title>
+    
+    <!--style link-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fonts & icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+
+    <!--cdnjs library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+
+            <div class="brand">
+                <a href="index.html">Medora</a>
+                <p>Healthcare</p>
+            </div>
+
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <a href="mailto:amofarichard101@gmail.com" class="bookApp"><span>Book Appointment</span></a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-text reveal">
+                <h1>Premium Treatments for a Healthy Lifestyle</h1>
+                <p>
+                    Seamlessly advance scalable architecture with future-ready growth strategies.
+                    Efficiently implement low-risk, high-return healthcare solutions.
+                </p>
+
+                <div class="hero-actions">
+                    <button class="hero-btn">View Our Hospital <i class="fa-regular fa-circle-play"></i></button>
+                </div>
+
+                <div class="stats reveal reveal-delay-1">
+                    <div class="stats-grid">
+                        <div><strong>500+</strong><br><span>Happy Patients</span></div>
+                        <div><strong>200</strong><br><span>Hospital Rooms</span></div>
+                        <div><strong>50+</strong><br><span>Awards</span></div>
+                        <div><strong>20+</strong><br><span>Ambulance</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="hero-card">
+                    <div class="icon">
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                    <div class="hero-card-text">
+                        <p>Search the Medical</p>
+                        <span>With Nurse Audrey</span>
+                    </div>
+                </div>
+                
+                <img src="/assets/hero.png" alt="Doctor" />
+
+                <div class="hero-hint">
+                    <i class="fa-solid fa-earth-africa"></i>
+                    <p>2500+ Doctors Online</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service-search">
+        <div class="service-select">
+            <select name="department" required>
+                <option value="" disabled selected hidden>Select Department</option>
+                <option value="Cardiology">Cardiology</option>
+                <option value="Neurology">Neurology</option>
+                <option value="Dental">Dental</option>
+            </select>
+
+            <select name="doctor" required>
+                <option value="" disabled selected hidden>Select Doctor</option>
+                <option value="shaun-murphy">Dr Shaun Murphy</option>
+                <option value="aswarld">Dr Aswarld</option>
+                <option value="kate-megan">Dr Kate Megan</option>
+                <option value="fred-arhin">Dr Fred Arhin</option>
+            </select>
+
+            <select name="location" required>
+                <option value="" disabled selected hidden>Select location</option>
+                <option value="pokuase">Pokuase</option>
+                <option value="sakaman">Sakaman</option>
+                <option value="santa-maria">Santa-Maria</option>
+                <option value="tema">Tema</option>
+            </select>
+
+            <button class="service-btn">
+                <i class="fa fa-search"></i> Search
+            </button>
+
+        </div>
+        </div>
+    </section>
+    
+    <section class="department">
+
+        <div class="department-content">
+            <h3>Department Category</h3>
+            <p>Browse our department for tailored services and expert solutions</p>
+        </div>
+
+        <div class="department-grid">
+
+            <div class="department-card reveal reveal-scale reveal-delay-1">
+                <img src="/assets/dc2.jfif" alt="Deparment">
+            </div>
+
+            <div class="department-card reveal reveal-scale reveal-delay-1">
+                <img src="/assets/dc5.jfif" alt="Deparment">
+            </div>
+
+            <div class="department-card reveal reveal-scale reveal-delay-1">
+                <img src="/assets/dc1.jfif" alt="Deparment">
+            </div>
+
+            <div class="department-card reveal reveal-scale reveal-delay-1">
+                <img src="/assets/dc3.jfif" alt="Deparment">
+            </div>
+
+            <div class="department-card reveal reveal-scale reveal-delay-1">
+                <img src="/assets/dc4.jfif" alt="Deparment">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="service">
+        <div class="service-wrapper" id="service">
+
+            <div class="service-content">
+                <h2>World-class Healthcare Services for you and your loved ones</h2>
+
+                <button class="serv-btn">More Service</button>
+
+            </div>
+
+            <div class="service-grid">
+
+                <div class="service-card reveal reveal-right-1">
+                    <img src="/assets/sc1.jfif" alt="Services">
+                    <div class="service-desc">
+                        <h2>Emergency Services</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Necessitatibus, optio corrupti eos facere nulla ex ab ut accusantium maiores dolore atque dolores eum.
+                             Cum id architecto a itaque blanditiis debitis!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-card reveal reveal-right-2">
+                    <img src="/assets/sc3.jfif" alt="Services">
+                    <div class="service-desc">
+                        <h2>Radiology & Imaging</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Necessitatibus, optio corrupti eos facere nulla ex ab ut accusantium maiores dolore atque dolores eum.
+                             Cum id architecto a itaque blanditiis debitis!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-card reveal reveal-right-3">
+                    <img src="/assets/sc3.jfif" alt="Services">
+                    <div class="service-desc">
+                        <h2>Laboratory Services</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Necessitatibus, optio corrupti eos facere nulla ex ab ut accusantium maiores dolore atque dolores eum.
+                             Cum id architecto a itaque blanditiis debitis!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <img src="/assets/sc1.jfif" alt="Services">
+                    <div class="service-desc">
+                        <h2>Pharmacy</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Necessitatibus, optio corrupti eos facere nulla ex ab ut accusantium maiores dolore atque dolores eum.
+                             Cum id architecto a itaque blanditiis debitis!
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="service-img reveal reveal-right">
+                <img src="/assets/service.png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-wrapper">
+            <div class="about-img">
+                <img src="/assets/medora.png" alt="Medora Healthcare">
+            </div>
+            <div class="about-content">
+                <h1>About Medora Healthcare</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Cupiditate dolore ab consectetur temporibus iure molestias labore tenetur consequuntur quod, 
+                    maiores facere asperiores vitae, suscipit obcaecati laudantium repellat ipsam, corporis iusto!
+                </p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Nam aperiam autem beatae ex, aliquam sed a quae, rerum rem ipsum sequi
+                     ut temporibus soluta saepe ullam eos omnis unde atque.
+                </p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Nam aperiam autem beatae ex, aliquam sed a quae, rerum rem ipsum sequi
+                     ut temporibus soluta saepe ullam eos omnis unde atque.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="blog" class="blog">
+        <div class="blog-header">
+            <h2>Latest Health Insights</h2>
+            <p style="color: #434343;">Expert articles and tips for a healthier lifestyle.</p>
+        </div>
+
+        <div class="blog-grid">
+            <article class="blog-card reveal reveal-scale">
+                <img src="/assets/blog.jfif" alt="Healthy Living">
+                <div class="blog-content">
+                    <span>Wellness</span>
+                    <h3>10 Daily Habits for a Healthier Life</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, quam earum qui.</p>                 </p>
+                    <a href="#">Read More →</a>
+                </div>
+            </article>
+
+            <article class="blog-card reveal reveal-scale">
+                <img src="/assets/blog.jfif" alt="Heart Health">
+                <div class="blog-content">
+                    <span>Cardiology</span>
+                    <h3>How to Protect Your Heart in Everyday Life</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, quam earum qui.</p>
+                    <a href="#">Read More →</a>
+                </div>
+            </article>
+
+            <article class="blog-card reveal reveal-scale">
+                <img src="/assets/blog.jfif" alt="Mental Health">
+                <div class="blog-content">
+                    <span>Mental Health</span>
+                    <h3>Managing Stress in a Busy World</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, quam earum qui.</p>
+                    <a href="#">Read More →</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <div class="contact-wrapper">
+            <div class="contact-info">
+            <h2>Talk to Medora Healthcare</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 quidem perferendis quod consectetur deleniti.
+            </p>
+
+                <ul>
+                    <li><i class="fa-solid fa-phone" style="color: #4fa3c7;"></i> +233 20 123 4567</li>
+                    <li><i class="fa-solid fa-envelope" style="color: #4fa3c7;"></i> support@medorahealthcare.com</li>
+                    <li><i class="fa-solid fa-location-dot" style="color: #4fa3c7;"></i> Accra, Ghana</li>
+                </ul>
+            </div>
+
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer class="site-footer">
+        <div class="footer-grid reveal">
+
+            <div class="footer-brand reveal reveal-scale reveal reveal-delay-1">
+                <h3>Medora Healthcare</h3>
+                <p>Premium healthcare for modern living.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Nobis dicta veritatis cumque,
+                </p>
+            </div>
+
+            <div class="footer-links reveal reveal-delay-2">
+            <h4>Quick Links</h4>
+                <a href="#service">Services</a>
+                <a href="#about">About Us</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer-links">
+            <h4>Support</h4>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Help Center</a>
+            </div>
+
+            <div class="footer-social reveal reveal-delay-3">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            </div>
+        </div>
+
+        <p class="footer-copy">&copy; 2026 Medora Healthcare. All rights reserved.</p>
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
