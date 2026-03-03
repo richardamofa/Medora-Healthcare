@@ -17,6 +17,8 @@ if (window.scrollY > 60) {
 }
 });
 
+
+
 const reveals = document.querySelectorAll(".reveal");
 
 const observer = new IntersectionObserver(
